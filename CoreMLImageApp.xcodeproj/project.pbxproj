@@ -13,6 +13,9 @@
 		9ECC95A223A3106C00891E18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ECC95A023A3106C00891E18 /* Main.storyboard */; };
 		9ECC95A423A3106E00891E18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ECC95A323A3106E00891E18 /* Assets.xcassets */; };
 		9ECC95A723A3106E00891E18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ECC95A523A3106E00891E18 /* LaunchScreen.storyboard */; };
+		9ECC95AF23A310F700891E18 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9ECC95AE23A310F700891E18 /* SqueezeNet.mlmodel */; };
+		9ECC95B123A3110000891E18 /* MobileNetV2FP16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9ECC95B023A3110000891E18 /* MobileNetV2FP16.mlmodel */; };
+		9ECC95B923A3BEDD00891E18 /* cat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9ECC95B823A3BEDD00891E18 /* cat.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		9ECC95A323A3106E00891E18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9ECC95A623A3106E00891E18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9ECC95A823A3106E00891E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ECC95AE23A310F700891E18 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
+		9ECC95B023A3110000891E18 /* MobileNetV2FP16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2FP16.mlmodel; sourceTree = "<group>"; };
+		9ECC95B823A3BEDD00891E18 /* cat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 		9ECC959923A3106C00891E18 /* CoreMLImageApp */ = {
 			isa = PBXGroup;
 			children = (
+				9ECC95B823A3BEDD00891E18 /* cat.jpeg */,
+				9ECC95B023A3110000891E18 /* MobileNetV2FP16.mlmodel */,
+				9ECC95AE23A310F700891E18 /* SqueezeNet.mlmodel */,
 				9ECC959A23A3106C00891E18 /* AppDelegate.swift */,
 				9ECC959C23A3106C00891E18 /* SceneDelegate.swift */,
 				9ECC959E23A3106C00891E18 /* ViewController.swift */,
@@ -125,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ECC95B923A3BEDD00891E18 /* cat.jpeg in Resources */,
 				9ECC95A723A3106E00891E18 /* LaunchScreen.storyboard in Resources */,
 				9ECC95A423A3106E00891E18 /* Assets.xcassets in Resources */,
 				9ECC95A223A3106C00891E18 /* Main.storyboard in Resources */,
@@ -141,6 +151,8 @@
 				9ECC959F23A3106C00891E18 /* ViewController.swift in Sources */,
 				9ECC959B23A3106C00891E18 /* AppDelegate.swift in Sources */,
 				9ECC959D23A3106C00891E18 /* SceneDelegate.swift in Sources */,
+				9ECC95B123A3110000891E18 /* MobileNetV2FP16.mlmodel in Sources */,
+				9ECC95AF23A310F700891E18 /* SqueezeNet.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
